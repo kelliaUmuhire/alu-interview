@@ -17,3 +17,4 @@ def rain(walls):
         if walls[i] < min_wall:
             rain += min_wall - walls[i]
     return rain
+    
